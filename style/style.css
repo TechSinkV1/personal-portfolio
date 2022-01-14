@@ -1,0 +1,15 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.home-text{
+    position: absolute;
+    top: 35px;
+    background-color: rgb(56 189 248);
+    color: white;
+    padding: 2px;
+    transition: transform 2s ease-in-out;
+}
+.home-icon:hover + .home-text{
+    display: block;
+    transform: translateX(-70px);
+}
